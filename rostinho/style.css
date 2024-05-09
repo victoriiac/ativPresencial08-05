@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(15, 20px);
+    grid-template-rows: repeat(15, 20px);
+    grid-gap: 1px;
+   
+    border: 3px;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+[class^="div"]{
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+}
+
+.div6, .div7, .div8, .div9, .div10, .div20, .div19, .div26, .div27, .div33, .div43, .div47, .div59, .div62, .div74, .div76, .div77, .div78, .div79, .div80, .div81, 
+.div82, .div83, .div84, .div85, .div86, .div87, .div88, .div89, .div90, .div91, .div93, .div94, .div97, .div98, .div99, .div100, .div103, .div105, .div106, .div108, .div109, .div110, .div112, .div114, .div115, 
+.div116, .div118, .div120, .div121, .div124, .div125, .div126, .div130, .div131, .div132, .div135, .div136, .div150, .div152, .div164, .div167, .div171, .div175, .div179, .div183, .div187, .div188, .div189, .div193, .div199, .div200, .div206, .div207, .div216, .div217, .div218, .div219, .div220{
+    background-color: black;
+}
+
+.div21, .div22, .div23, .div24, .div25, .div34, .div35, .div36, .div37, .div38, .div39, .div40, .div42, .div48, .div49, .div50, .div51, .div52, .div53, .div54, .div55, .div56, .div56, .div58, .div63 , .div64, .div65, .div66, .div67, .div68, .div69, .div70, .div71, .div72, .div73,
+.div92, .div104, .div107, .div113, .div122, .div127, .div128, .div123, .div133, .div119, .div134, .div129, .div137, .div138, .div139, .div140, .div141, .div142, .div143, .div144, .div145, .div146, .div147, .div148, .div149, .div153, .div154, .div155, .div1556, .div157, .div158, .div159, .div160, .div161, .div162, 
+.div163, .div168, .div169, .div170, .div172, .div173, .div174, .div176, .div176, .div177, .div178, .div184, .div185, .div186, .div190, .div191, .div192, .div201, .div205, .div203,.div202, .div204, .div156, .div57, .div41{
+    background-color: yellow;;
+}
